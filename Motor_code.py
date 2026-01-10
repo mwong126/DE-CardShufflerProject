@@ -42,11 +42,11 @@ def backwardB(x):
 def stop():
     GPIO.output(ENA,0)
     GPIO.output(ENB,0)
-for z in range (52):
-    forwardA(200)
-    sleep(0.5)
-    backwardA(200)
-    sleep(0.5)
+for z in range (1):
+    forwardA(100)
+    sleep(1)
+    backwardB(100)
+    sleep(15)
     stop()
 
 
