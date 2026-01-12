@@ -90,7 +90,9 @@ This project helped to strectch my thinking and it was really fun making a proje
 This project was very enjoyabla and I was able to learn and demonstrate my knowledge of various things
 
 *Demonstrated ability to code in python and take developed code and add onto it to imrpove functionality
+
 *Demonstrated ability to use Computer Aided Design to create a desired product as well as take exisitng products and merge them and edit them to create a product
+
 *Demonstrated ability to rapidly design and prototype a creation through the engineering desing process
 
 ## **Sourcees**
