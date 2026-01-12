@@ -62,7 +62,11 @@ The code for the motors was rather simple due to finding a great video online ex
 	    GPIO.output(IN1,GPIO.LOW)
 	    GPIO.output(IN2,GPIO.HIGH)
 
-These two segments demonstrate the functions that were detailed in the video to move a motor on port A forward and backwards. The ENA output represents a speed from 0-255 of the motor and when one of the IN1 or IN2 outputs is powered but the other is not then it spins in a direction and if the power is flipped to the other IN port then the direction of the motor is flipped.
+These two segments demonstrate the functions that were detailed in the video to move a motor on port A forward and backwards. The ENA output represents a speed from 0-255 of the motor and when one of the IN1 or IN2 outputs is powered but the other is not then it spins in a direction and if the power is flipped to the other IN port then the direction of the motor is flipped. Furthermore I defined a stop function to ensure the ability to stop the motors when I wanted them to because otherwise the program would continuously run and thus the motors would stay on forever even if a for loop finished.
+
+	def stop():
+		GPIO.ouput(ENA,0)
+		GPIO.output(ENB,0)
 
 ## **Technical Challenges:**
 
