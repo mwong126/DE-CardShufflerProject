@@ -23,6 +23,8 @@ Raspberry Pi - I chose the Raspberry Pi as my SBC because it is easy to work wit
 
 Lego Parts 56903 and 61254 - These are the two lego pieces that make up a wheel. I needed to find small rubber wheels in order to get the required traction to move the cards. Since it was almost impossible to find wheels less than 2 inches wide online that were rubber and freestanding I decided to scavenge lego pieces at my house. These made a lot of sense since there were already CAD models of them and they were a very good size, had lots of traction, and easy to mount.
 
+I also used a 12 v power supply to power my motors and multple jumper wires and dupont wires.
+
 ## **CAD Models:**
 
 **Base Chassis:**
