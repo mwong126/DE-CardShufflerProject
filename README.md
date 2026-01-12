@@ -43,6 +43,7 @@ These two pieces were made using Fusion and act as my main base and the mounts f
 The majority of the parts for this project were 3-d printed due to the ease and speed. It was very simple to simply downnload the file from Fusion as a STL and send it to the printer. Some of the parts took multiple tries to work as they failed or needed to be changed after the fact due to the part not working quite how it was intedended to. The main base was printed first and then the mounts for the wheels. The wheels themselves were Lego which made it very easy to find the exact dimensinos online as well as find existing CAD models of the parts. 
 
 ## **Wiring:** 
+![IMG_1669](https://github.com/user-attachments/assets/54b2bf32-bcb3-419a-bd84-a7117969621f)
 
 For the wiring, dupont connecters were used to easily connect the RaspberryPi to the motor drivers and the power supply to the motors. I connected triplets of GPIO pins from the Raspberry Pi to the motor driver and used the 5V Rpi supply and an external 12 v power supply to provide the power to the motor driver and motors.
 ## **User Guide:**
@@ -51,6 +52,7 @@ This device is currently run through a program on the Raspberry Pi. I have not y
 
 ## **Code:**
 
+![IMG_1668](https://github.com/user-attachments/assets/c6752800-bddb-42d1-8e82-2c6daccadac7)
 
 
 The code for the motors was rather simple due to finding a great video online explaining the code for this motor driver and I expanded on it further by importing wait commands through time.sleep(x) and figured out how I was going to alternate the motors to achieve the desired result of sending the cards to various sides.
