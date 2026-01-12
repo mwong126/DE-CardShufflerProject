@@ -44,7 +44,7 @@ The majority of the parts for this project were 3-d printed due to the ease and 
 
 ## **Wiring:** 
 
-For the wiring, dupont connecters were used to easily connect the RaspberryPi to the motor drivers and the power supply to the motors.
+For the wiring, dupont connecters were used to easily connect the RaspberryPi to the motor drivers and the power supply to the motors. I connected triplets of GPIO pins from the Raspberry Pi to the motor driver and used the 5V Rpi supply and an external 12 v power supply to provide the power to the motor driver and motors.
 
 ## **User Guide:**
 
