@@ -68,6 +68,26 @@ These two segments demonstrate the functions that were detailed in the video to 
 		GPIO.ouput(ENA,0)
 		GPIO.output(ENB,0)
 
-## **Technical Challenges:**
+## **Challenges:**
+
+There were multiple technical challenges that I faced when designing, creating, assembling and testing this project.
+
+*Firstly, there were many problems with printing the base chassis as it was too big to be printed as one piece so it had to be printed in two. However this led to the problem of one half of the print failing multiple times and the supports for the print failing multiple times. The problem was solved by using a different printer however it caused a lot of delays.
+
+*Second, the printing of the wheel mounts took some finetuning due to the fact that the printer had trouble printing such a small hole with accuracy and printing the axle without it warping on the tip. This problem was fixed with the addition of a skirt to the print and slowing down the print to around 60% speed and decreasing the flow rate. 
+
+*Third, the breadboard that I had been using to test the wiring failed after the first trial so the motors turned on the first time however it took a few days to realize that the breadboard was the problem and not one of the wiring connections of the Pi, Motor Driver, Motor and dupont connectors. This created a large setback because each day I would have to set up and take a multimeter to the connections to slowly narrow down the problem to the breadboard connetion. This also prevented me from testing my code for a few days. This problem was sovled by removing the breadboard and directly wiring all of the connections.
+
+*Fourth, managing time between doing TA work, the project and helping out with the USC biomechanics project meant that there were certain days where I was not able to work.
 
 ## **Final Notes:**
+
+## **Sourcees**
+
+https://www.pololu.com/category/60/micro-metal-gearmotors
+https://brickarchitect.com/parts/56903
+https://brickarchitect.com/parts/61254
+https://grabcad.com/library/lego-technic-axles-1
+https://www.youtube.com/watch?v=m8r8prXrcgw
+https://www.amazon.com/Encoder-Motor-Arduino-7-5-3000RPM-Feedback/dp/B0DB25VYCR
+https://www.amazon.com/WWZMDiB-L298N-H-Bridge-Controller-Raspberry/dp/B0CR6BX5QL?crid=3UL7MDZTO0S4I&dib=eyJ2IjoiMSJ9.hK2FjV8Ukp8CCyVTI1seMk4n3aguoO_lNXX3xoiH-O2g8aOhuJHXrK0PauW3wBb5EJQatv-gXIFVmemNsuPftrk-aGMHac9D3DyNfOiAC839s_74JMHDqxIBvas8RWOvukBGHwAFNvys6ts5brRIWLdxdqa6yigo7yON0DZhOr9qwm-06LsqX34FN8naCuFQj2Atl6BuVDxdvy_YWIFwwxcBZKvb-MmOQfRt-15_pfo.Z5oNvD2vslVNc79inv96RuEOGcfxY5ge-TpfO3NgQxI&dib_tag=se&keywords=L298N%2BMotor%2BDriver&qid=1763764828&sprefix=l298n%2Bmotor%2Bdriver%2Caps%2C196&sr=8-4&th=1
