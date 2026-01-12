@@ -39,7 +39,7 @@ I also used a 12 v power supply to power my motors and multple jumper wires and 
 These two pieces were made using Fusion and act as my main base and the mounts for my wheels that turn the cards. The Base chassis has an upper compartment that holds the cards that are to be shuffled and two slits on either side of that are just tall enough for 1 card to slide through. One one side the cards go immediately to the bottom but on the other side the cards are held in a small area before being sent down to the bottom. This simulates the act of splitting the deck. Furthermore the wheel mounts are made using a combination of the online CAD model of the motors to find the right fit fore the hole and the CAD model of a lego axle to ensure that the lego wheels will stay on.
 
 ## **Manufacturing:**
-
+	
 The majority of the parts for this project were 3-d printed due to the ease and speed. It was very simple to simply downnload the file from Fusion as a STL and send it to the printer. Some of the parts took multiple tries to work as they failed or needed to be changed after the fact due to the part not working quite how it was intedended to. The main base was printed first and then the mounts for the wheels. The wheels themselves were Lego which made it very easy to find the exact dimensinos online as well as find existing CAD models of the parts. 
 
 ## **Wiring:** 
@@ -48,7 +48,21 @@ For the wiring, dupont connecters were used to easily connect the RaspberryPi to
 
 ## **User Guide:**
 
-## **Code:**
+## **Code:*
+
+The code for the motors was rather simple due to finding a great video online explaining the code for this motor driver and I expanded on it further by importing wait commands through time.sleep(x) and figured out how I was going to alternate the motors to achieve the desired result of sending the cards to various sides.
+
+	def forwardA(x):
+		GPIO.output(ENA,x)
+	    GPIO.output(IN1,GPIO.HIGH)
+	    GPIO.output(IN2,GPIO.LOW)
+		    
+	def backwardA(x):
+	    GPIO.output(ENA,x)
+	    GPIO.output(IN1,GPIO.LOW)
+	    GPIO.output(IN2,GPIO.HIGH)
+
+These two segments demonstrate the functions that were detailed in the video to move a motor on port A forward and backwards. The ENA output represents a speed from 0-255 of the motor and when one of the IN1 or IN2 outputs is powered but the other is not then it spins in a direction and if the power is flipped to the other IN port then the direction of the motor is flipped.
 
 ## **Technical Challenges:**
 
