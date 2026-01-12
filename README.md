@@ -24,6 +24,7 @@ DC 12V 30RPM N20 Encoder Motor High Torque -  These motors were very small and l
 Raspberry Pi - I chose the Raspberry Pi as my SBC because it is easy to work with and I was already familiar with it.
 
 Lego Parts 56903 and 61254 - These are the two lego pieces that make up a wheel. I needed to find small rubber wheels in order to get the required traction to move the cards. Since it was almost impossible to find wheels less than 2 inches wide online that were rubber and freestanding I decided to scavenge lego pieces at my house. These made a lot of sense since there were already CAD models of them and they were a very good size, had lots of traction, and easy to mount.
+![IMG_1674](https://github.com/user-attachments/assets/2ed754cc-a35b-493d-a9d6-5d0c1fb0f101)
 
 I also used a 12 v power supply to power my motors and multple jumper wires and dupont wires.
 
@@ -41,7 +42,9 @@ I also used a 12 v power supply to power my motors and multple jumper wires and 
 These two pieces were made using Fusion and act as my main base and the mounts for my wheels that turn the cards. The Base chassis has an upper compartment that holds the cards that are to be shuffled and two slits on either side of that are just tall enough for 1 card to slide through. One one side the cards go immediately to the bottom but on the other side the cards are held in a small area before being sent down to the bottom. This simulates the act of splitting the deck. Furthermore the wheel mounts are made using a combination of the online CAD model of the motors to find the right fit fore the hole and the CAD model of a lego axle to ensure that the lego wheels will stay on.
 
 ## **Manufacturing:**
-	
+![IMG_1673](https://github.com/user-attachments/assets/966d15d3-9bff-4105-8dd5-adf4504dd6c5)
+![IMG_1672](https://github.com/user-attachments/assets/cf85c7d9-59cf-4776-b046-776fd8722e60)
+
 The majority of the parts for this project were 3-d printed due to the ease and speed. It was very simple to simply downnload the file from Fusion as a STL and send it to the printer. Some of the parts took multiple tries to work as they failed or needed to be changed after the fact due to the part not working quite how it was intedended to. The main base was printed first and then the mounts for the wheels. The wheels themselves were Lego which made it very easy to find the exact dimensinos online as well as find existing CAD models of the parts. 
 
 ## **Wiring:** 
