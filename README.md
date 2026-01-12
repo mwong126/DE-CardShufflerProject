@@ -9,15 +9,18 @@ Brainstorm Sketches:
 
 Part Selection:
 
-CAD:
+CAD Models:
+
 Base Chassis:
+
 <img width="954" height="643" alt="Screenshot 2025-12-19 150648" src="https://github.com/user-attachments/assets/5dd45919-99a6-4df6-a717-afc565120c9e" />
 
 
 Wheel Mount:
+
 <img width="597" height="443" alt="Screenshot 2025-11-24 232253" src="https://github.com/user-attachments/assets/0b2835a8-b916-4356-9ab7-ce8dfed62a2e" />
 
-These two pieces were made using Fusion and act as my main base and the mounts for my wheels that turn the cards.
+These two pieces were made using Fusion and act as my main base and the mounts for my wheels that turn the cards. The Base chassis has an upper compartment that holds the cards that are to be shuffled and two slits on either side of that are just tall enough for 1 card to slide through. One one side the cards go immediately to the bottom but on the other side the cards are held in a small area before being sent down to the bottom. This simulates the act of splitting the deck. Furthermore the wheel mounts are made using a combination of the online CAD model of the motors to find the right fit fore the hole and the CAD model of a lego axle to ensure that the lego wheels will stay on.
 
 Manufacturing:
 
