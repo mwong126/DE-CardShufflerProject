@@ -2,14 +2,14 @@
 #Card Shuffler Main objective: A deivice controlled by a RaspberryPi that powers multiple motors to split and stack a deck of cards in order to mimic the act of shuffling a deck of cards.
 
 
-	##**Introduction:**
+## **Introduction:**
 
 The goal of this project was to implement and showcase some of the skills that we learned in the Digital Electronics class. The project uses code, wiring and PWM signals to control motors that are able to move the cards in specific ways. I decided to pursue this project because it was something that is a simple and interesting movement in day to day activities. Furthermore it is something that could be continued and updated to deal the cards out as well. 
 
-	##**Brainstorm Sketches:**
+## **Brainstorm Sketches:**
 ![IMG_1660](https://github.com/user-attachments/assets/cd2ef7db-1268-4b62-a8c8-46771c3a1e2e)
 
-	##**Part Selection:**
+## **Part Selection:**
 
 I selected various motors, motor drivers and a SBC to make my project work.
 	
@@ -21,7 +21,7 @@ Raspberry Pi - I chose the Raspberry Pi as my SBC because it is easy to work wit
 
 Lego Parts 56903 and 61254 - These are the two lego pieces that make up a wheel. I needed to find small rubber wheels in order to get the required traction to move the cards. Since it was almost impossible to find wheels less than 2 inches wide online that were rubber and freestanding I decided to scavenge lego pieces at my house. These made a lot of sense since there were already CAD models of them and they were a very good size, had lots of traction, and easy to mount.
 
-##**CAD Models:**
+## **CAD Models:**
 
 **Base Chassis:**
 
@@ -34,18 +34,18 @@ Lego Parts 56903 and 61254 - These are the two lego pieces that make up a wheel.
 
 These two pieces were made using Fusion and act as my main base and the mounts for my wheels that turn the cards. The Base chassis has an upper compartment that holds the cards that are to be shuffled and two slits on either side of that are just tall enough for 1 card to slide through. One one side the cards go immediately to the bottom but on the other side the cards are held in a small area before being sent down to the bottom. This simulates the act of splitting the deck. Furthermore the wheel mounts are made using a combination of the online CAD model of the motors to find the right fit fore the hole and the CAD model of a lego axle to ensure that the lego wheels will stay on.
 
-##**Manufacturing:**
+## **Manufacturing:**
 
 The majority of the parts for this project were 3-d printed due to the ease and speed. It was very simple to simply downnload the file from Fusion as a STL and send it to the printer. Some of the parts took multiple tries to work as they failed or needed to be changed after the fact due to the part not working quite how it was intedended to. The main base was printed first and then the mounts for the wheels. The wheels themselves were Lego which made it very easy to find the exact dimensinos online as well as find existing CAD models of the parts. 
 
-##**Wiring:** 
+## **Wiring:** 
 
 For the wiring, dupont connecters were used to easily connect the RaspberryPi to the motor drivers and the power supply to the motors.
 
-##**User Guide:**
+## **User Guide:**
 
-##**Code:**
+## **Code:**
 
-##**Technical Challenges:**
+## **Technical Challenges:**
 
-##**Final Notes:**
+## **Final Notes:**
