@@ -45,10 +45,13 @@ The majority of the parts for this project were 3-d printed due to the ease and 
 ## **Wiring:** 
 
 For the wiring, dupont connecters were used to easily connect the RaspberryPi to the motor drivers and the power supply to the motors. I connected triplets of GPIO pins from the Raspberry Pi to the motor driver and used the 5V Rpi supply and an external 12 v power supply to provide the power to the motor driver and motors.
-
 ## **User Guide:**
 
+This device is currently run through a program on the Raspberry Pi. I have not yet made the code start on the push of a button so the code currently functions when the code is started in the terminal with Motor_code.py. Furthermore, the user places the deck of cards in the area in the top of the base chassis and then starts the program, this starts the motors and leads to them being shuffled.
+
 ## **Code:**
+
+
 
 The code for the motors was rather simple due to finding a great video online explaining the code for this motor driver and I expanded on it further by importing wait commands through time.sleep(x) and figured out how I was going to alternate the motors to achieve the desired result of sending the cards to various sides.
 
@@ -81,13 +84,27 @@ There were multiple technical challenges that I faced when designing, creating, 
 *Fourth, managing time between doing TA work, the project and helping out with the USC biomechanics project meant that there were certain days where I was not able to work.
 
 ## **Final Notes:**
+This project helped to strectch my thinking and it was really fun making a project at the same time as various other students. Thank you to Mr. Marc Aurele for being an engineering mentor and being able to help with the any questions that I had on the project. 
+
+## **Attributes**
+This project was very enjoyabla and I was able to learn and demonstrate my knowledge of various things
+
+*Demonstrated ability to code in python and take developed code and add onto it to imrpove functionality
+*Demonstrated ability to use Computer Aided Design to create a desired product as well as take exisitng products and merge them and edit them to create a product
+*Demonstrated ability to rapidly design and prototype a creation through the engineering desing process
 
 ## **Sourcees**
 
 https://www.pololu.com/category/60/micro-metal-gearmotors
+
 https://brickarchitect.com/parts/56903
+
 https://brickarchitect.com/parts/61254
+
 https://grabcad.com/library/lego-technic-axles-1
+
 https://www.youtube.com/watch?v=m8r8prXrcgw
+
 https://www.amazon.com/Encoder-Motor-Arduino-7-5-3000RPM-Feedback/dp/B0DB25VYCR
+
 https://www.amazon.com/WWZMDiB-L298N-H-Bridge-Controller-Raspberry/dp/B0CR6BX5QL?crid=3UL7MDZTO0S4I&dib=eyJ2IjoiMSJ9.hK2FjV8Ukp8CCyVTI1seMk4n3aguoO_lNXX3xoiH-O2g8aOhuJHXrK0PauW3wBb5EJQatv-gXIFVmemNsuPftrk-aGMHac9D3DyNfOiAC839s_74JMHDqxIBvas8RWOvukBGHwAFNvys6ts5brRIWLdxdqa6yigo7yON0DZhOr9qwm-06LsqX34FN8naCuFQj2Atl6BuVDxdvy_YWIFwwxcBZKvb-MmOQfRt-15_pfo.Z5oNvD2vslVNc79inv96RuEOGcfxY5ge-TpfO3NgQxI&dib_tag=se&keywords=L298N%2BMotor%2BDriver&qid=1763764828&sprefix=l298n%2Bmotor%2Bdriver%2Caps%2C196&sr=8-4&th=1
