@@ -2,6 +2,7 @@
 Card Shuffler Main objective: A deivice controlled by a RaspberryPi that powers multiple motors to split and stack a deck of cards in order to mimic the act of shuffling a deck of cards.
 
 Digital Electronics Final Project, Marcus Wong
+
 https://github.com/user-attachments/assets/a32ea553-fd60-4ab4-9e3f-8de211531956
 
 ## **Introduction:**
