@@ -16,8 +16,10 @@ The goal of this project was to implement and showcase some of the skills that w
 I selected various motors, motor drivers and a SBC to make my project work.
 	
 L298N Motor Driver - This motor driver is able to connect to two different motors and is able to power 12V motors which is why I chose it. Additionally is was cheap and very intutive to use. Furthermore, some of my friends had used this motor driver in the past, giving me an additional resource on how to use it without having to look up videos on it.
-	
+	![IMG_1671](https://github.com/user-attachments/assets/fba44f7c-94d7-4900-be32-bf682a567174)
+
 DC 12V 30RPM N20 Encoder Motor High Torque -  These motors were very small and lightweight making it easy to use multiple of them in my project, also there were multiple options for torque gearing when buying them. I chose the 100 rpm versions since I would not need an excessive amount of speed but rather a lot of torque, which is why these motors were a good option.
+![IMG_1670](https://github.com/user-attachments/assets/ef2d7d4e-2bfd-4b52-9aa7-83ef9cd63b7d)
 
 Raspberry Pi - I chose the Raspberry Pi as my SBC because it is easy to work with and I was already familiar with it.
 
