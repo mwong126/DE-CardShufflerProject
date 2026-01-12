@@ -48,7 +48,7 @@ For the wiring, dupont connecters were used to easily connect the RaspberryPi to
 
 ## **User Guide:**
 
-## **Code:*
+## **Code:**
 
 The code for the motors was rather simple due to finding a great video online explaining the code for this motor driver and I expanded on it further by importing wait commands through time.sleep(x) and figured out how I was going to alternate the motors to achieve the desired result of sending the cards to various sides.
 
